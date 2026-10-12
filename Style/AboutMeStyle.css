@@ -1,6 +1,13 @@
+html {
+    background-color:white
+}
+
 Body {
-    background-color #f4f4f4;
-    font-family: sans-serif;
+    font: 1.2em / 1.5 system-ui;
+  padding: 20px;
+  width: 768px;
+  background-color: #efefef;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -11,11 +18,15 @@ Body {
 
 h1 {background-color: black;
     color: rgb(49, 195, 20);
+    border-bottom: 10 px solid #ccc:
+    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2 {
     color: blueviolet;
+    font-style:italic;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,6 +42,10 @@ img {
 }
 ul{
     border: 2px,solid,black;
+    background-color:white;
+    border:5px solid teal;
+    padding: 30px;
+    border-radius: 20px;
 }
 ol {
     font-style: italic;
@@ -44,9 +59,23 @@ main {
     max-width: 900px;
     margin: 10px;
 }
-.start{
-    border: 2px solid gray
+a {
+  color: blue
 }
-.start.stop{background: black}
-/*specify a rule for tagline selector*/
-.tagline {}
+a:hover, 
+a:focus{
+  color: darkslateblue;
+  text-decoration: none;
+}
+.card {
+  position: relative;
+  width: 300px;
+}
+.badge {
+  position: absolute;
+  background-color: darkblue;
+  color: white;
+  right: -10px;
+  top: 40px;
+  border-radius: 50%;
+}
