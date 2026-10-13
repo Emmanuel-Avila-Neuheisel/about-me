@@ -7,10 +7,10 @@ html {
 body {
     font: 1.2em / 1.5 system-ui;
     padding: 20px;
-    width: min(768px, calc(100% - 40px));
+    width: min(980px, calc(100% - 40px));
     background-color: #efefef;
-    margin: 0;
-    
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -58,7 +58,7 @@ section {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 10px auto;
 }
 
