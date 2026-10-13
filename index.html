@@ -5,29 +5,28 @@
     <meta charset="UTF-8">
     <meta name="Author" content="Emmanuel Avila-Neuheisel">
     <meta name="Description" content="My first Webpage containing information aobut me">
-    <link rel="stylesheet" href="Style/AboutMeStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Emmanuel Avila-Neuheisel
     </title>
+    <link rel="stylesheet" href="Style/AboutMeStyle.css">
 </head>
 
-<body>
-    <header id="Name-Section">
-        <!--Name Section-->
-        <h1>Emmanuel Avila-Neuheisel</h1>
-    </header>
+<header id="Name-Section">
+    <!--Name Section-->
+    <h1>Emmanuel Avila-Neuheisel</h1>
+</header>
 
-    <main>
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="#About-Me-Section">About Me</a></li>
-                <li><a href="#Classes-Taken-Section">Classes Taken</a></li>
-                <li><a href="#Interests-Section">Interests</a></li>
-                <li><a href="#Cars-Owned-Section">Cars Owned</a></li>
-                <li><a href="#Fun-Facts-Section">Fun Facts</a></li>
-                <li><a href="#Contact-Section">Contact</a></li>
-            </ul>
-        </nav>
+    <main class="grid">
+      <nav>
+        <ul>
+          <li><a href="#About-Me-Section">About Me</a></li>
+          <li><a href="#Classes-Taken-Section">Classes Taken</a></li>
+          <li><a href="#Interests-Section">Interests</a></li>
+          <li><a href="#Cars-Owned-Section">Cars Owned</a></li>
+          <li><a href="#Fun-Facts-Section">Fun Facts</a></li>
+        </ul>
+      </nav>
 
         <header>
             <img src="images/Ultra_Instinct_Goku_Full_Body.png" alt="A picture of Goku from Dragon Ball">
@@ -40,10 +39,10 @@
             <h2>Classes taken this semseter:</h2>
             <ul>
                 <li>COMPSCI</li>
-                <li>COMM</li>
-                <li>COMM</li>
-                <li>BUSADM</li>
-                <li>ME</li>
+                <li>COMM 290</li>
+                <li>COMM 205</li>
+                <li>BUSADM 201</li>
+                <li>ME 170</li>
             </ul>
         </section>
         <section id="Interests-Section">
@@ -54,6 +53,7 @@
                 <li>Learning</li>
                 <li>Spending time outdoors</li>
                 <li>Catching up on shows</li>
+                <li>Listening to music/podcasts</li>
             </ul>
         </section>
         <section id="Cars-Owned-Section">
@@ -78,20 +78,22 @@
         </section>
 
 
-        <section class="card" id="Contact-Section">
-            <span class="badge">Contact</span>
-            <img src="images/Puebla_Volcan Popocatepetl y iglesia de los remedios.jpg.webp"
-                alt="A Picture of Popocatepetl and a Church in Puebla">
+        <section class="card">
+            <span class="badge"></span>
+            <img src="images/Puebla_Volcan_Popocatepetl_y_iglesia_de_los_remedios.jpg" alt="A Picture of Popocatepetl and a Church in Puebla">
             <h2>Contact Info</h2>
-            <ul>
-                <li>Email: Avilee01@UWGB.edu</li>
-                <li>Phone: (414) 123-4567</li>
-
-            </ul>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email:</strong>
+                    <span>Avilee01@UWGB.edu</span>
+                </div>
+                <div class="contact-item">
+                    <strong>Phone:</strong>
+                    <span>(414) 123-4567</span>
+                </div>
+            </div>
         </section>
 
     </main>
-</body>
-
 
 </html>
